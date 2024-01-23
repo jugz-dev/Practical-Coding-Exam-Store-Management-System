@@ -1,0 +1,241 @@
+/* General Styles */
+body,
+.navbar {
+    background-color: #F8F9FB !important;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.nav-item {
+    margin-left: 5px;
+}
+
+.navbar-brand,
+.slim-font {
+    letter-spacing: 1px;
+    font-weight: 400 !important;
+}
+
+/* Pill Styles */
+.custom-pill-edit,
+.custom-pill-delete {
+    margin: 2px 3px;
+    font-size: 12px;
+    width: 80px;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+.custom-pill-edit {
+    background-color: white;
+    color: #3E61FD;
+    border: 0.5px solid #3E61FD;
+}
+
+.custom-pill-delete, .custom-pill-delete-modal {
+    background-color: white;
+    color: #FF0000;
+    border: 0.5px solid #FF0000;
+}
+
+.custom-pill-delete:hover,.custom-pill-delete-modal:hover {
+    color: white;
+    background-color: #FF0000;
+}
+
+/* Pill Link Styles */
+.custom-pill-link,
+.custom-pill-register {
+    display: inline-block;
+    padding: 8px 16;
+    border: 2px solid #3E61FD !important;
+    color: #3E61FD;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 200px;
+    text-align: center;
+}
+
+.custom-pill-link.active, .custom-pill-link:hover, .custom-pill-register {
+    background-color: #3E61FD;
+    color: #ecf0f1 !important;
+}
+
+ /* {
+    background-color: #3E61FD;
+    color: #ecf0f1;
+} */
+
+.custom-pill-link.active:hover,
+.btn-submit:hover {
+    background-color: #ecf0f1;
+    color: #3E61FD !important;
+}
+
+.custom-pill-register:hover{
+    background-color: white;
+    color: #3E61FD !important;
+}
+
+.btn-submit {
+    background-color: #3E61FD;
+    color: #ecf0f1 !important;
+    padding: 8px;
+    width: 120px;
+    border: 2px solid #3E61FD;
+    border-radius: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .navbar-nav {
+        text-align: left;
+        margin: 0;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .table-name {
+        text-align: center;
+    }
+
+    .search-bar-div {
+        display: flex;
+        justify-content: center;
+        margin: 3px auto !important;
+    }
+
+    .custom-pill-register {
+        margin-top: 10px !important;
+    }
+}
+
+@media (max-width: 1399px) {
+    .search-bar-parent{
+        margin-top: 10px;
+    }
+}
+
+/* Container Styles */
+.container.border {
+    height: 3px;
+    border: 0;
+    background-color: #3E61FD;
+}
+
+.container-small {
+    max-width: 800px;
+}
+
+/* Form Styles */
+.form-name {
+    text-align: center;
+}
+
+.form-body, .welcome {
+    padding: 20px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.form-instruction {
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Table Styles */
+.table-responsive {
+    padding: 20px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.table-name{
+    margin: auto !important;
+}
+
+.semi-header-row{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    background-color: white;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center !important;
+}
+
+th {
+    text-align: center !important;
+    font-size: 14px;
+}
+
+/* Search Bar Styles */
+.search-bar {
+    border: none;
+    padding: 0.5px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.search-bar-parent {
+    border: 1px solid #3E61FD;
+    padding: 3px 5px;
+    border-radius: 20px;
+}
+
+.search-btn{
+    padding: 1.25px 5px;
+    border-radius: 20px;
+    border: 0.5px solid #3E61FD;
+    font-size: 14px;
+    background-color: white !important;
+    color: #3E61FD !important;
+}
+
+.search-btn:hover,
+.custom-pill-edit:hover {
+    color: white;
+    background-color: #3E61FD;
+}
+
+/* Miscellaneous Styles */
+.with-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.font-weight-bold {
+    font-weight: bold !important;
+}
+
+.no-record-info{
+    margin-top: 15px;
+}
+
+.welcome{
+    width: 500px;
+}
+
+.welcome-pill{
+    padding: 10px;
+    width: 300px;
+    margin: 10px 3px;
+    border-radius: 200px;
+    font-size: 15px;
+}
+
+.welcome-nav-intro{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 13px;
+}
